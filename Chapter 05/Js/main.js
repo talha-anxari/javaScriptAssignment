@@ -83,3 +83,60 @@ var obtainMarks = 804;
 var percentage = obtainMarks * 100 / totalMarks;
 
 console.log(percentage);
+
+// var maths = 80
+// var english = 70
+// var urdu = 80
+// var pst = 70
+
+// var totalMarksSecure = maths + english + urdu + pst
+// var totalMarks = 400
+
+// var percentage = totalMarksSecure * 100 / totalMarks
+// alert(percentage + '%')
+
+// var bottleCost = 180
+// var totalBottle = 5
+// var pizzaCost = 1500
+// var totalPizza = 5
+// var discount = 10
+// var tax = 13
+
+// var totalCost = (bottleCost * totalBottle) + (pizzaCost * totalPizza)
+// alert('totalCost ' +  totalCost)
+// var taxPrice = totalCost * 13 / 100
+// alert('taxPrice ' +  taxPrice)
+// var priceAfterTax = totalCost + taxPrice
+// alert('priceAfterTax  ' +  priceAfterTax)
+// var discount = priceAfterTax * 10 / 100
+// alert('discount  ' +  discount)
+// var netCost = priceAfterTax - discount
+// alert('netCost  ' +  netCost)
+
+// Write a program to create a calculator for +,-,*, / & %
+// using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %)
+// Compute & show the calculated result to user.
+var users_value = prompt('enter any number')
+var users_second_value = prompt('enter 2 number')
+var users_operation_value = prompt('enter operation + - * / %')
+// console.log(users_operation_value , users_second_value ,users_value)
+
+if (users_operation_value === "+") {
+    console.log(Number(users_value) + Number(users_second_value))  
+}else if(users_operation_value === "-"){
+    console.log(users_value - users_second_value)
+}
+else if(users_operation_value === "*"){
+    console.log(users_value * users_second_value)
+}
+else if(users_operation_value === "/"){
+    console.log(users_value / users_second_value)
+}
+else if(users_operation_value === "%"){
+    console.log(users_value % users_second_value)
+}else{
+    console.log("Invalid operator")
+}

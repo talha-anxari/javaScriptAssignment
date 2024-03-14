@@ -55,6 +55,12 @@ var obtainMarks = 220;
 var percentage = obtainMarks * 100 / totalMarks;
 alert(percentage);
 
+// Get the user's name
+const user_name = prompt("Enter your name:");
+
+// Greet the user
+console.log(`Hello, ${user_name}! Welcome to our program. 😊`);
+
 var end = `“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”`;
 document.write(end);
 
